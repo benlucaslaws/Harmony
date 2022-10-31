@@ -51,17 +51,19 @@
                             </Border.Style>
                         </Border>
                         
-                        <TopPanel DockPanel.Dock="Top" Grid.Row="0" />
+                        <TopPanel DockPanel.Dock="Top" Grid.Row="0" Background="{DynamicResource PanelBackgroundBrush}"/>
                         
                         <DockPanel Grid.Row="1">
                             <FilterPanel x:Name="PART_FilterPanel"
                                          DockPanel.Dock="{Settings FilterPanelPosition}"
                                          Width="{Settings FilterPanelWitdh}"
-                                         Visibility="{Settings FilterPanelVisible}"/>
+                                         Visibility="{Settings FilterPanelVisible}"
+                                         Background="{DynamicResource PanelBackgroundBrush}"/>
 
                             <ExplorerPanel Visibility="{Settings ExplorerPanelVisible}"
                                            DockPanel.Dock="{Settings ExplorerPanelPosition}"
-                                           Width="{Settings ExplorerPanelWitdh}"/>
+                                           Width="{Settings ExplorerPanelWitdh}"
+                                           Background="{DynamicResource PanelBackgroundBrush}"/>
                             
                             <Grid DockPanel.Dock="Left">                                
                                 <LibraryDetailsView x:Name="PART_ViewDetails" />

@@ -14,6 +14,7 @@
                               Width="{Settings DetailsListWitdh}">
                             <ExtendedListBox x:Name="PART_ListGames"
                                     BorderBrush="{DynamicResource PanelSeparatorBrush}"
+                                    Background="{DynamicResource PanelBackgroundBrush}"
                                     ItemContainerStyle="{DynamicResource DetailsViewItemStyle}"
                                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                                     ScrollViewer.PanningMode="VerticalOnly">
