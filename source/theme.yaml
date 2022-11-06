@@ -1,10 +1,8 @@
 ThemeApiVersion: 2.3.0
-Id: Harmony_d49ef7bc-49de-4fd0-9a67-bd1f26b56047
-Name: Harmony
-Author: darklinkpower
-Version: 2.38
+Id: Harmony-benlucaslaws_406b4f9c-1766-4b99-83b3-da0b341d4c79
+Name: Harmony-benlucaslaws
+Author: darklinkpower, benlucaslaws
+Version: 2.39
 Links:
 - Name: GitHub
-  Url: https://github.com/darklinkpower/Harmony
-- Name: Playnite Forums thread
-  Url: https://playnite.link/forum/thread-457.html
+  Url: https://github.com/benlucaslaws/Harmony
